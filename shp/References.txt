@@ -1,0 +1,12 @@
+References #####> https://www.hydrosheds.org/hydroatlas#download <#####
+The development of BasinATLAS and RiverATLAS is fully described in Linke et al. (2019) and should be cited as:
+
+Linke, S., Lehner, B., Ouellet Dallaire, C., Ariwi, J., Grill, G., Anand, M., Beames, P., Burchard-Levine, V., Maxwell, S., Moidu, H., Tan, F., Thieme, M. (2019). Global hydro-environmental sub-basin and river reach characteristics at high spatial resolution. Scientific Data 6: 283. doi: https://doi.org/10.1038/s41597-019-0300-6
+
+‍
+
+The development of LakeATLAS is fully described in Lehner et al. (2022) and should be cited as:
+
+Lehner, B., Messager, M.L., Korver, M.C., Linke, S. (2022). Global hydro-environmental lake characteristics at high spatial resolution. Scientific Data 9: 351. doi: https://doi.org/10.1038/s41597-022-01425-z
+
+‍
