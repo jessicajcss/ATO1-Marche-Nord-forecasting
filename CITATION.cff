@@ -1,0 +1,75 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite the article (preferred-citation) and this repository."
+type: software
+title: "ATO1-Marche-Nord-forecasting: code and reference outputs for honestly-benchmarked forecasting of civil water demand and network losses (ATO1 Marche Nord, Italy, 2017-2021)"
+abstract: "Leakage-free, rolling-origin, five-seed benchmarking of deep-learning (LSTM, Transformer, CNN-LSTM, MLP), gradient-boosted-tree, SARIMA and naive forecasts of monthly civil water demand and network losses in ATO1 Marche Nord (Italy), 2017-2021, across three feature specifications. Includes the three pipelines (Jupyter notebooks), cached public covariates, per-seed and aggregated metric tables, and the figure script. Operator data are withheld (available on request)."
+version: "1.0.0"
+date-released: "2026-11-08"
+license: MIT
+repository-code: "https://github.com/jessicajcss/ATO1-Marche-Nord-forecasting"
+keywords:
+  - water demand forecasting
+  - network losses
+  - water balance
+  - deep learning
+  - LSTM
+  - rolling-origin evaluation
+  - small-sample forecasting
+authors:
+  - family-names: "Ciuccoli"
+    given-names: "Nicolò"
+    affiliation: "Università Politecnica delle Marche (SIMAU), Ancona, Italy"
+  - family-names: "dos Santos Silva"
+    given-names: "Jessica Caroline"
+    affiliation: "Santa Catarina State University (UDESC), Joinville, Brazil"
+  - family-names: "Vanelli"
+    given-names: "Franciele Maria"
+    affiliation: "Santa Catarina State University (UDESC), Joinville, Brazil"
+  - family-names: "Monteiro"
+    given-names: "Leonardo Romero"
+    affiliation: "Santa Catarina State University (UDESC), Joinville, Brazil"
+  - family-names: "Fronzi"
+    given-names: "Davide"
+    affiliation: "Università Politecnica delle Marche (SIMAU), Ancona, Italy"
+  - family-names: "Eusebi"
+    given-names: "Anna Laura"
+    affiliation: "Università Politecnica delle Marche (SIMAU), Ancona, Italy"
+  - family-names: "Barros"
+    given-names: "Virginia Grace"
+    affiliation: "Santa Catarina State University (UDESC), Joinville, Brazil"
+    email: "virginia.barros@udesc.br"
+  - family-names: "Fatone"
+    given-names: "Francesco"
+    affiliation: "Università Politecnica delle Marche (SIMAU), Ancona, Italy"
+preferred-citation:
+  type: article
+  title: "Auditable territorial water balances and honestly-benchmarked deep learning for water-security forecasting: a case study of ATO1 Marche Nord (Italy)"
+  journal: "Environmental Modelling & Software"
+  status: submitted
+  year: 2026
+  authors:
+    - family-names: "Ciuccoli"
+      given-names: "Nicolò"
+      affiliation: "Università Politecnica delle Marche (SIMAU), Ancona, Italy"
+    - family-names: "dos Santos Silva"
+      given-names: "Jessica Caroline"
+      affiliation: "Santa Catarina State University (UDESC), Joinville, Brazil"
+    - family-names: "Vanelli"
+      given-names: "Franciele Maria"
+      affiliation: "Santa Catarina State University (UDESC), Joinville, Brazil"
+    - family-names: "Monteiro"
+      given-names: "Leonardo Romero"
+      affiliation: "Santa Catarina State University (UDESC), Joinville, Brazil"
+    - family-names: "Fronzi"
+      given-names: "Davide"
+      affiliation: "Università Politecnica delle Marche (SIMAU), Ancona, Italy"
+    - family-names: "Eusebi"
+      given-names: "Anna Laura"
+      affiliation: "Università Politecnica delle Marche (SIMAU), Ancona, Italy"
+    - family-names: "Barros"
+      given-names: "Virginia Grace"
+      affiliation: "Santa Catarina State University (UDESC), Joinville, Brazil"
+      email: "virginia.barros@udesc.br"
+    - family-names: "Fatone"
+      given-names: "Francesco"
+      affiliation: "Università Politecnica delle Marche (SIMAU), Ancona, Italy"

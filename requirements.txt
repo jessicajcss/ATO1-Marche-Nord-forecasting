@@ -1,0 +1,21 @@
+# ATO1-Marche-Nord-forecasting — Python dependencies (unpinned)
+#
+# The reference outputs were produced with two environments (see README §7):
+#   ATO1_minimal_pipeline.ipynb ......................... Python 3.11.15 (conda env "neural311")
+#   ATO1_extended_pipeline.ipynb, ATO1_parsimonious_... . Python 3.13.5  (Anaconda "base")
+# Exact package versions of both are recorded in environment/requirements-lock-py311.txt
+# and environment/requirements-lock-py313.txt (pip freeze).
+
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib        # notebooks and figures/make_figures.py
+openpyxl          # read data/Dataset.xlsx
+statsmodels       # SARIMA (SARIMAX)
+xgboost           # gradient-boosted trees (parsimonious / extended pipelines)
+tensorflow        # LSTM / Transformer / CNN-LSTM / MLP
+
+# Optional — extended pipeline only:
+# shap              # SHAP diagnostic (Section 13)
+# earthengine-api   # online ERA5-Land fetch, used only if data_cache/ is missing

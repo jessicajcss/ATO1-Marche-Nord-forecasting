@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+env/
+venv/
+.conda/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# R / RStudio project files (local only; not part of the analysis)
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Local Earth Engine / credentials (never commit)
+*.json.key
+.ee/
+.config/earthengine/
+
+# ---------------------------------------------------------------------------
+# Operator-supplied data and files that embed observed values — WITHHELD
+# (available on request with the providers' permission; see data/README_DATA.md)
+# ---------------------------------------------------------------------------
+data/Dataset.xlsx
+data/*.xlsx
+*_predictions_long.csv
+output_part2_5seed/integrated_dataset.csv
+
+# Figures written when the notebooks or figures/make_figures.py are re-run
+# (several plot the operator series); the manuscript figures are submitted with the article
+output_*/*.svg
+output_*/*.png
+figures/output/
+
+# Intermediate (non-final) tables re-written by the extended notebook on re-runs;
+# the tracked *_final.csv files are the reference copies
+output_part2_5seed/ablation_results.csv
+output_part2_5seed/master_metrics_part2_agg.csv
+output_part2_5seed/master_metrics_part2_per_seed.csv
